@@ -6,7 +6,11 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
- 
-}
+  swcMinify: true,
+  reactStrictMode: false,
+  experimental: {
+    optimizeFonts: true,
+  },
+};
 
-export default nextConfig
+export default nextConfig;
